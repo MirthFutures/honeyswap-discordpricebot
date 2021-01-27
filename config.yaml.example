@@ -1,0 +1,26 @@
+---
+_config:
+  amm: # Identification for multiple AMMs
+    honeyswap:
+      address: '0x7BEa4Af5D425f2d4485BDad1859c88617dF31A67'
+      name: honeyswap
+  refresh_rate: 15 # How often prices refresh
+  eth_node: https://rpc.xdaichain.com/ # HTTP RPC or local RPC path
+HNY:
+  token:
+    apikey: ABCD # Discord API Key
+    contract: '0x71850b7E9Ee3f13Ab46d67167341E4bDc905Eef9' # Token Contract
+    icon: HNY # Flavor icon for the user list
+    emoji:  # [Optional] External custom emoji
+    lp: '0x89e2F342b411032a580fEfa17f96da6A5bef4112' # ETH/[Token] LP Pair Contract
+    from: honeyswap # Follows keys from _config.amm
+  config:
+    refresh_rate: 30 # Overriding refresh rate
+DEA:
+  token:
+    apikey: EFGH
+    contract: '0x80aB141F324C3d6F2b18b030f1C4E95d4d658778'
+    icon: DEA
+    emoji:
+    lp: '0xb049f430d34Da8f077F2F281D9b1Cc3b86762079'
+    from: uniswap

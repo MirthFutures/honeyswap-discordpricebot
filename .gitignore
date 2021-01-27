@@ -1,0 +1,7 @@
+.DS_Store
+*.db
+config.yaml
+contracts
+pricebot/plugin/
+__pycache__/
+.idea/
